@@ -30,18 +30,18 @@ public class frmMedico2 extends javax.swing.JDialog {
 
         jLabel1 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        txtTexto2 = new javax.swing.JTextArea();
-        btnAgrearPaciente2 = new javax.swing.JButton();
+        txtPaciente2 = new javax.swing.JTextArea();
+        btnPaciente2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jLabel1.setText("LISTA PACIENTES MEDICO 2");
 
-        txtTexto2.setColumns(20);
-        txtTexto2.setRows(5);
-        jScrollPane1.setViewportView(txtTexto2);
+        txtPaciente2.setColumns(20);
+        txtPaciente2.setRows(5);
+        jScrollPane1.setViewportView(txtPaciente2);
 
-        btnAgrearPaciente2.setText("AGREGAR");
+        btnPaciente2.setText("AGREGAR");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -58,7 +58,7 @@ public class frmMedico2 extends javax.swing.JDialog {
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 344, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(25, 25, 25))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(btnAgrearPaciente2)
+                        .addComponent(btnPaciente2)
                         .addGap(135, 135, 135))))
         );
         layout.setVerticalGroup(
@@ -69,7 +69,7 @@ public class frmMedico2 extends javax.swing.JDialog {
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(btnAgrearPaciente2)
+                .addComponent(btnPaciente2)
                 .addContainerGap(34, Short.MAX_VALUE))
         );
 
@@ -119,9 +119,9 @@ public class frmMedico2 extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    public javax.swing.JButton btnAgrearPaciente2;
+    public javax.swing.JButton btnPaciente2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
-    public javax.swing.JTextArea txtTexto2;
+    public javax.swing.JTextArea txtPaciente2;
     // End of variables declaration//GEN-END:variables
 }

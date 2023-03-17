@@ -32,10 +32,11 @@ public class frmVistaPrincipal extends javax.swing.JDialog {
         jLabel2 = new javax.swing.JLabel();
         txtApellidos = new javax.swing.JTextField();
         txtNombre = new javax.swing.JTextField();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
         btnAgregarMedico1 = new javax.swing.JButton();
         btnAgregarMedico2 = new javax.swing.JButton();
+        btnAgregarPaciente1 = new javax.swing.JButton();
+        btnAgragarPaciente2 = new javax.swing.JButton();
+        btn1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -43,13 +44,15 @@ public class frmVistaPrincipal extends javax.swing.JDialog {
 
         jLabel2.setText("Nombre");
 
-        jLabel3.setText("AGREGAR PACIENTE MEDICO 1");
-
-        jLabel4.setText("AGREGAR PACIENTE MEDICO 2");
-
         btnAgregarMedico1.setText("LISTA PACIENTES MEDICO 1");
 
         btnAgregarMedico2.setText("LISTA PACIENTES MEDICO2");
+
+        btnAgregarPaciente1.setText("AGREGAR PACIENTE MEDICO 1");
+
+        btnAgragarPaciente2.setText("AGREGAR PACIENTE MEDICO 2");
+
+        btn1.setText("jButton1");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -68,18 +71,23 @@ public class frmVistaPrincipal extends javax.swing.JDialog {
                         .addComponent(txtApellidos, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                        .addGap(25, 25, 25)
-                        .addComponent(btnAgregarMedico1))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                        .addGap(35, 35, 35)
-                        .addComponent(jLabel3)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
+                .addGap(25, 25, 25)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(btnAgregarMedico2, javax.swing.GroupLayout.Alignment.TRAILING))
-                .addGap(37, 37, 37))
+                    .addComponent(btnAgregarMedico1)
+                    .addComponent(btnAgregarPaciente1))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnAgregarMedico2)
+                        .addGap(55, 55, 55))
+                    .addGroup(layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btnAgragarPaciente2)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn1)
+                .addGap(78, 78, 78))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -92,7 +100,9 @@ public class frmVistaPrincipal extends javax.swing.JDialog {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
                     .addComponent(txtNombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(66, 66, 66)
+                .addGap(7, 7, 7)
+                .addComponent(btn1)
+                .addGap(38, 38, 38)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(48, 48, 48)
@@ -100,9 +110,9 @@ public class frmVistaPrincipal extends javax.swing.JDialog {
                             .addComponent(btnAgregarMedico1)
                             .addComponent(btnAgregarMedico2)))
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel3)
-                        .addComponent(jLabel4)))
-                .addContainerGap(100, Short.MAX_VALUE))
+                        .addComponent(btnAgregarPaciente1)
+                        .addComponent(btnAgragarPaciente2)))
+                .addContainerGap(98, Short.MAX_VALUE))
         );
 
         pack();
@@ -151,12 +161,13 @@ public class frmVistaPrincipal extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    public javax.swing.JButton btn1;
+    public javax.swing.JButton btnAgragarPaciente2;
     public javax.swing.JButton btnAgregarMedico1;
     public javax.swing.JButton btnAgregarMedico2;
+    public javax.swing.JButton btnAgregarPaciente1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    public javax.swing.JLabel jLabel3;
-    public javax.swing.JLabel jLabel4;
     public javax.swing.JTextField txtApellidos;
     public javax.swing.JTextField txtNombre;
     // End of variables declaration//GEN-END:variables

@@ -30,18 +30,18 @@ public class frmMedico1 extends javax.swing.JDialog {
 
         jLabel1 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        txtTexto1 = new javax.swing.JTextArea();
-        btnAgregarPaciente1 = new javax.swing.JButton();
+        txtPaciente1 = new javax.swing.JTextArea();
+        btnPaciente1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jLabel1.setText("LISTA PACIENTES MEDICO 1");
 
-        txtTexto1.setColumns(20);
-        txtTexto1.setRows(5);
-        jScrollPane1.setViewportView(txtTexto1);
+        txtPaciente1.setColumns(20);
+        txtPaciente1.setRows(5);
+        jScrollPane1.setViewportView(txtPaciente1);
 
-        btnAgregarPaciente1.setText("AGREGAR");
+        btnPaciente1.setText("AGREGAR");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -57,7 +57,7 @@ public class frmMedico1 extends javax.swing.JDialog {
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 351, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(152, 152, 152)
-                        .addComponent(btnAgregarPaciente1)))
+                        .addComponent(btnPaciente1)))
                 .addContainerGap(25, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -68,7 +68,7 @@ public class frmMedico1 extends javax.swing.JDialog {
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(btnAgregarPaciente1)
+                .addComponent(btnPaciente1)
                 .addContainerGap(44, Short.MAX_VALUE))
         );
 
@@ -118,9 +118,9 @@ public class frmMedico1 extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnAgregarPaciente1;
+    public javax.swing.JButton btnPaciente1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextArea txtTexto1;
+    public javax.swing.JTextArea txtPaciente1;
     // End of variables declaration//GEN-END:variables
 }
